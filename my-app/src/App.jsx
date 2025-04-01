@@ -6,6 +6,9 @@ function App() {
   return (
     <div className='App'>
       <UserRole role ="admin"/>
+      <UserRole role ="editor"/>
+      <UserRole role ="viewer"/>
+      <UserRole role ="BookCase"/>
     </div>
   )
 }
